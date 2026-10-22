@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>حكاية عمر ❤️</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- القلوب المتحركة -->
+    <div id="petals"></div>
+
+
+    <!-- شاشة كلمة السر -->
+    <section id="lockScreen" class="screen">
+
+        <div class="lock-card">
+
+            <div class="lock-icon">🔐</div>
+
+            <h1>حكاية خاصة ❤️</h1>
+
+            <p>
+                في حكايات مش أي حد يدخلها...
+                <br>
+                اكتب كلمة السر عشان تبدأ الحكاية ✨
+            </p>
+
+            <input
+                type="password"
+                id="password"
+                placeholder="اكتب كلمة السر"
+            >
+
+            <button id="unlockBtn">
+                دخول ❤️
+            </button>
+
+            <p id="error"></p>
+
+        </div>
+
+    </section>
+
+
+    <!-- شاشة البداية -->
+    <section id="introScreen" class="screen hidden">
+
+        <div class="intro-content">
+
+            <div class="big-heart">❤️</div>
+
+            <p class="small-intro">
+                في يوم من الأيام...
+            </p>
+
+            <h1>
+                بدأت الحكاية
+            </h1>
+
+            <p>
+                حكاية فيها حب وذكريات،
+                <br>
+                وبيت، وعيلة، وأجمل فصل لسه بيتكتب... ✨
+            </p>
+
+            <button id="startBtn">
+                افتح الحكاية 🌹
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- الموقع الرئيسي -->
+    <main id="mainPage" class="hidden">
+
+
+        <!-- البداية -->
+        <header class="hero">
+
+            <div class="hero-content">
+
+                <div class="date-badge">
+                    28 • 10 • 2022
+                </div>
+
+                <h1>
+                    حكاية عمر
+                </h1>
+
+                <p>
+                    من هنا بدأت الحكاية... ❤️
+                </p>
+
+                <div class="hero-line"></div>
+
+                <span>
+                    ولسه أجمل فصولها جاية ✨
+                </span>
+
+            </div>
+
+        </header>
+
+
+        <!-- العداد -->
+        <section class="counter-section">
+
+            <div class="section-title">
+
+                <span>⏳</span>
+
+                <h2>
+                    قد إيه عدّى من الحكاية؟
+                </h2>
+
+                <p>
+                    وكل ثانية بتكتب ذكرى جديدة ❤️
+                </p>
+
+            </div>
+
+
+            <div class="counter">
+
+                <div class="counter-box">
+                    <strong id="years">0</strong>
+                    <span>سنة</span>
+                </div>
+
+                <div class="counter-box">
+                    <strong id="months">0</strong>
+                    <span>شهر</span>
+                </div>
+
+                <div class="counter-box">
+                    <strong id="days">0</strong>
+                    <span>يوم</span>
+                </div>
+
+                <div class="counter-box">
+                    <strong id="hours">0</strong>
+                    <span>ساعة</span>
+                </div>
+
+                <div class="counter-box">
+                    <strong id="minutes">0</strong>
+                    <span>دقيقة</span>
+                </div>
+
+                <div class="counter-box">
+                    <strong id="seconds">0</strong>
+                    <span>ثانية</span>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- بداية القصة -->
+        <section class="story-section">
+
+            <div class="section-title">
+
+                <span>🌷</span>
+
+                <h2>
+                    ومن هنا بدأت...
+                </h2>
+
+            </div>
+
+
+            <div class="story-card">
+
+                <div class="story-date">
+                    28 أكتوبر 2022 ❤️
+                </div>
+
+                <p>
+                    في يوم من الأيام بدأت حكاية صغيرة...
+                    <br><br>
+
+                    يمكن وقتها محدش كان يعرف إنها هتكبر
+                    بالشكل ده، لكن يوم ورا يوم،
+                    ولحظة ورا لحظة، بدأت التفاصيل تتجمع،
+                    وبدأت الذكريات تاخد مكانها في القلب. ❤️
+                </p>
+
+                <p>
+                    بدأت بقلبين قربوا من بعض،
+                    واتجمعت بينهم ضحكات ومواقف وكلام كتير،
+                    وبعدها بدأت الحكاية تاخد شكل جديد... 💍✨
+                </p>
+
+                <p>
+                    لحد ما بقى فيه بيت،
+                    وتفاصيل مشتركة،
+                    وذكريات أكتر،
+                    وبعدين جه أجمل فصل... 👶🏻🩷
+                </p>
+
+                <p class="story-ending">
+                    ومن وقتها،
+                    الحكاية ما بقتش مجرد حكاية شخصين...
+                    <br>
+                    بقت حكاية عيلة كاملة. 🏡❤️
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- الصور -->
+        <section class="gallery-section">
+
+            <div class="section-title">
+
+                <span>📸</span>
+
+                <h2>
+                    صفحات من الحكاية
+                </h2>
+
+                <p>
+                    كل صورة وراها ذكرى... وكل ذكرى ليها مكان في القلب ❤️
+                </p>
+
+            </div>
+
+
+            <div class="gallery">
+
+
+                <article class="memory-card">
+                    <img src="WhatsApp Image 2026-10-22 at 3.45.42 PM (2).jpeg" alt="ذكرى">
+                    <div>
+                        <h3>🌷 البداية</h3>
+                        <p>ومن هنا بدأت الحكاية... أول صفحة في قصة كان لسه أجمل فصولها مستني.</p>
+                    </div>
+                </article>
+
+
+                <article class="memory-card">
+                    <img src="WhatsApp Image 2026-10-22 at 3.45.38 PM (1).jpeg" alt="ذكرى">
+                    <div>
+                        <h3>❤️ ذكرى</h3>
+                        <p>لحظة بسيطة... لكنها كانت كفاية إنها تفضل في القلب.</p>
+                    </div>
+                </article>
+
+
+                <article class="memory-card">
+                    <img src="WhatsApp Image 2026-10-22 at 3.45.37 PM.jpeg" alt="ذكرى">
+                    <div>
+                        <h3>🫶🏻 مع بعض</h3>
+                        <p>كل يوم كان بيقربهم أكتر، ومع الوقت بقت الضحكة أحلى لما تكون مع بعض.</p>
+                    </div>
+                </article>
+
+
+                <article class="memory-card">
+                    <img src="WhatsApp Image 2026-10-22 at 3.47.36 PM (1).jpeg" alt="ذكرى">
+                    <div>
+                        <h3>📸 ذكريات</h3>
+                        <p>أيام بتتحفظ في القلب... مش كل الذكريات محتاجة كلام كتير.</p>
+                    </div>
+                </article>
+
+
+                <article class="memory-card">
+                    <img src="WhatsApp Image 2026-10-22 at 3.47.35 PM.jpeg" alt="ذكرى">
+                    <div>
+                        <h3>💕 حب</h3>
+                        <p>والحكاية كبرت، وبقى وجود كل واحد في حياة التاني حاجة أساسية.</p>
+                    </div>
+                </article>
+
+
+                <article class="memory-card">
+                    <img src="WhatsApp Image 2026-10-22 at 3.45.38 PM.jpeg" alt="ذكرى">
+                    <div>
+                        <h3>✨ خطوة</h3>
+                        <p>قربوا أكتر من الحلم، وبدأت الحكاية تاخد شكل جديد.</p>
+                    </div>
+                </article>
+
+
+                <article class="memory-card">
+                    <img src="WhatsApp Image 2026-10-22 at 3.45.37 PM.jpeg" alt="ذكرى">
+                    <div>
+                        <h3>💍 احلام</h3>
+                        <p>وعد إن الطريق هيكمل، ويوم اتجمعت فيه الفرحة مع أجمل بداية جديدة.</p>
+                    </div>
+                </article>
+
+
+                <article class="memory-card">
+                    <img src="WhatsApp Image 2026-10-22 at 3.47.38 PM.jpeg" alt="ذكرى">
+                    <div>
+                        <h3>🎉 فرحة</h3>
+                        <p>يوم من أجمل الأيام... ضحكات وصور وقلوب فرحانة بالحكاية الجديدة.</p>
+                    </div>
+                </article>
+
+
+                <article class="memory-card">
+                    <img src="WhatsApp Image 2026-10-22 at 3.47.37 PM.jpeg" alt="ذكرى">
+                    <div>
+                        <h3>❤️ معًا</h3>
+                        <p>مشوار لسه في أوله، والأجمل إن كل خطوة كانت سوا.</p>
+                    </div>
+                </article>
+
+
+                <article class="memory-card">
+                    <img src="image.png">
+                    <div>
+                        <h3>🌙 الحلم</h3>
+                        <p>وأصبح الحلم حقيقة، اليوم اللي بقت فيه الحكاية حياة مشتركة.</p>
+                    </div>
+                </article>
+
+
+                <article class="memory-card">
+                    <img src="WhatsApp Image 2026-10-22 at 3.45.43 PM.jpeg" alt="ذكرى">
+                    <div>
+                        <h3>💍مع بعض</h3>
+                        <p>ومن هنا بدأ فصل جديد... بيت واحد، قلبين، وحكايات مالهاش نهاية.</p>
+                    </div>
+                </article>
+
+
+                <article class="memory-card">
+                    <img src="WhatsApp Image 2026-10-22 at 3.45.41 PM.jpeg" alt="ذكرى">
+                    <div>
+                        <h3>🏡 بيتهم</h3>
+                        <p>أجمل مكان... لأن البيت مش بالمكان، البيت بالناس اللي فيه.</p>
+                    </div>
+                </article>
+
+
+                <article class="memory-card">
+                    <img src="WhatsApp Image 2026-10-22 at 3.45.43 PM (1).jpeg" alt="ذكرى">
+                    <div>
+                        <h3>☕ تفاصيل</h3>
+                        <p>الأيام العادية... يمكن عادية عند الناس، بس غالية عندهم.</p>
+                    </div>
+                </article>
+
+
+                <article class="memory-card">
+                    <img src="WhatsApp Image 2026-10-22 at 3.45.40 PM (1).jpeg" alt="ذكرى">
+                    <div>
+                        <h3>😂 ضحكة</h3>
+                        <p>أحلى الذكريات من غير ترتيب... لحظة عفوية بقت ذكرى جميلة.</p>
+                    </div>
+                </article>
+
+
+                <article class="memory-card">
+                    <img src="WhatsApp Image 2026-10-22 at 3.45.42 PM.jpeg" alt="ذكرى">
+                    <div>
+                        <h3>🌷 حياة</h3>
+                        <p>كل يوم له حكاية، والأيام كانت بتضيف فصل جديد للقصة.</p>
+                    </div>
+                </article>
+
+
+                <article class="memory-card">
+                    <img src="WhatsApp Image 2026-10-22 at 3.45.35 PM.jpeg" alt="ذكرى">
+                    <div>
+                        <h3>🫶🏻 سوا</h3>
+                        <p>في كل الظروف... أهم حاجة إنهم دايمًا عندهم بعض.</p>
+                    </div>
+                </article>
+
+
+                <article class="memory-card">
+                    <img src="WhatsApp Image 2026-10-22 at 4.35.28 PM.jpeg" alt="ذكرى">
+                    <div>
+                        <h3>❤️ حب</h3>
+                        <p>الحب بيكبر، ومع السنين بقى الحب أهدى وأعمق وأجمل.</p>
+                    </div>
+                </article>
+
+
+                <article class="memory-card">
+                    <img src="WhatsApp Image 2026-10-22 at 4.35.29 PM (1).jpeg" alt="ذكرى">
+                    <div>
+                        <h3>📸 ذكريات</h3>
+                        <p>التفاصيل الصغيرة هي اللي بتعمل الحياة الكبيرة.</p>
+                    </div>
+                </article>
+
+
+                <article class="memory-card">
+                    <img src="WhatsApp Image 2026-10-22 at 4.35.29 PM.jpeg" alt="ذكرى">
+                    <div>
+                        <h3>✨ فصل جديد</h3>
+                        <p>وبعدين الحكاية كبرت... وجالها أجمل فصل ممكن يتكتب.</p>
+                    </div>
+                </article>
+
+
+                <article class="memory-card">
+                    <img src="WhatsApp Image 2026-10-22 at 3.45.40 PM (1).jpeg" alt="ذكرى">
+                    <div>
+                        <h3>👶🏻 أجمل هدية</h3>
+                        <p>جالهم أجمل فصل... طفل صغير بقى أجمل جزء من حكايتهم. 👶🏻❤️</p>
+                    </div>
+                </article>
+
+
+                <article class="memory-card">
+                    <img src="WhatsApp Image 2026-10-22 at 4.35.28 PM (1).jpeg" alt="ذكرى">
+                    <div>
+                        <h3>🩷 حب من نوع جديد</h3>
+                        <p>حضن صغير قدر يضيف للحياة معنى أكبر.</p>
+                    </div>
+                </article>
+
+
+                <article class="memory-card">
+                    <img src="WhatsApp Image 2026-10-22 at 4.35.27 PM.jpeg" alt="ذكرى">
+                    <div>
+                        <h3>🌸 قلب أكبر</h3>
+                        <p>قلب بقى فيه حب أكتر، ومن يوم ما جه البيت بقى مليان حياة.</p>
+                    </div>
+                </article>
+
+
+                <article class="memory-card">
+                    <img src="WhatsApp Image 2026-10-22 at 3.45.35 PM.jpeg" alt="ذكرى">
+                    <div>
+                        <h3>👨‍👩‍👦 عيلة</h3>
+                        <p>ثلاثة قلوب... لكن حكاية واحدة، وحب واحد بيجمعهم.</p>
+                    </div>
+                </article>
+
+
+                <article class="memory-card">
+                    <img src="WhatsApp Image 2026-10-22 at 3.45.38 PM.jpeg" alt="ذكرى">
+                    <div>
+                        <h3>🌙 الحكاية مستمرة</h3>
+                        <p>أجمل فصل لسه جاي، والصور دي مجرد صفحات من حكاية لسه بتتكتب. ❤️</p>
+                    </div>
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- الخاتمة -->
+        <section class="final-section">
+
+            <div class="final-content">
+
+                <div class="final-icon">
+                    🌙❤️✨
+                </div>
+
+                <h2>
+                    آخر صفحة... ولسه الحكاية بتكمل 🤍
+                </h2>
+
+                <p>
+                    في 28 أكتوبر 2022 بدأت حكاية صغيرة،
+                    يمكن وقتها محدش كان يعرف إنها هتكبر بالشكل ده...
+                    لكن يوم ورا يوم، ولحظة ورا لحظة،
+                    بدأت التفاصيل تتجمع،
+                    وبدأت الذكريات تاخد مكانها في القلب.
+                </p>
+
+                <p>
+                    بدأت بقلبين قربوا من بعض،
+                    واتجمعت بينهم ضحكات ومواقف وكلام كتير...
+                    حاجات يمكن كانت بسيطة وقتها،
+                    لكن مع مرور الوقت بقت من أغلى الذكريات. ❤️
+                </p>
+
+                <p>
+                    وبعدها بدأت الحكاية تاخد شكل جديد،
+                    وجاءت خطوات جديدة،
+                    وأحلام اتحولت لحياة حقيقية. 💍✨
+                </p>
+
+                <p>
+                    وجاء اليوم اللي بقى فيه للحكاية بيت. 🏡❤️
+                    بيت اتملت تفاصيله بالضحك،
+                    والقعدات،
+                    والصور،
+                    والمواقف الصغيرة اللي محدش غيرهم يعرف قيمتها.
+                </p>
+
+                <p>
+                    وبعدين جاء أجمل فصل... 👶🏻🩷
+                    دخل شخص صغير الحكاية،
+                    لكنه أخد مكان كبير جدًا في القلب.
+                </p>
+
+                <p>
+                    ومن وقتها بقى للبيت صوت جديد،
+                    وضحكة جديدة،
+                    وصور أكتر،
+                    وذكريات أكتر،
+                    وحب من نوع مختلف تمامًا. 🫶🏻❤️
+                </p>
+
+                <p>
+                    وفجأة، الحكاية اللي بدأت بقلبين
+                    بقت عيلة بتكبر يوم بعد يوم. 👨‍👩‍👦✨
+                </p>
+
+                <p>
+                    كل صورة هنا وراها حكاية،
+                    وكل حكاية وراها لحظة،
+                    وكل لحظة كانت جزء من الطريق
+                    اللي وصل لحد هنا. 📖❤️
+                </p>
+
+                <p>
+                    ومن 28 أكتوبر 2022 لحد النهارده،
+                    الوقت عدى... والحكاية كبرت. ⏳❤️
+                </p>
+
+                <p>
+                    ولسه في أعياد جاية 🎂،
+                    ولسه في مناسبات 🎉،
+                    ولسه في سفرات ✈️،
+                    ولسه في صور جديدة 📸،
+                    ولسه في ضحكات هتتسمع في البيت 😂🏡،
+                    ولسه في أحلام هتتحقق 🌟.
+                </p>
+
+                <p>
+                    ولو دي كانت آخر صورة في الموقع...
+                    فهي مش آخر صورة في الحكاية. 📸🤍
+                </p>
+
+                <p>
+                    ولو دي كانت آخر صفحة...
+                    فهي مش النهاية.
+                </p>
+
+                <div class="continue">
+                    <span>📖</span>
+                    <strong>يتبع...</strong>
+                    <span>✨❤️</span>
+                </div>
+
+                <p>
+                    لأن أجمل الحكايات مش بتخلص عند آخر صورة...
+                    بتكمل في صورة جديدة،
+                    وفي يوم جديد،
+                    وفي ضحكة جديدة،
+                    وفي ذكرى لسه ما حصلتش. 🌙📸🫶🏻
+                </p>
+
+                <div class="final-ending">
+
+                    <span>🤍 28 • 10 • 2022</span>
+
+                    <span>كانت البداية... 🌷</span>
+
+                    <span>⏳ والوقت عدى...</span>
+
+                    <span>📸 والذكريات كترت...</span>
+
+                    <span>🏡 والحياة كبرت...</span>
+
+                    <span>👶🏻 والعيلة كبرت...</span>
+
+                    <strong>
+                        ❤️ والحكاية لسه مستمرة...
+                    </strong>
+
+                    <b>
+                        🌙 ولسه أجمل فصولها جاية... ✨❤️
+                    </b>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- الفوتر -->
+        <footer>
+
+            <p>
+                بعض الحكايات لا تنتهي... 🤍
+            </p>
+
+            <span>
+                ❤️ ⏳ 🌹 📸 ✨
+            </span>
+
+        </footer>
+
+    </main>
+
+
+    <!-- زر الموسيقى -->
+    <button id="musicButton" class="music-button">
+        🎵
+    </button>
+
+
+    <!-- الأغنية -->
+    <audio id="bgSong" loop>
+        <source
+            src="Albumaty.Com_wail_gsar_hlm_hyati_-_mn_fylm_twam_hyaty.mp3"
+            type="audio/mpeg"
+        >
+    </audio>
+
+
+    <script src="main.js"></script>
+
+</body>
+</html>
